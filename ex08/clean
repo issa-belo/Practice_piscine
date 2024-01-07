@@ -1,0 +1,4 @@
+//search for all files in a current dir end with ~, or start and end with # 
+the command should show and remove all the files found.
+
+find . {#*#,*~?} -exec rm -v {} +
